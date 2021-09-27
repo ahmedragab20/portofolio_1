@@ -1,0 +1,16 @@
+// main vars
+$full: 100%;
+$transition: all 0.4s ease-in-out;
+// dark mode
+$appDarkBackground: #050505;
+$appDarkColor: #d1d1d1;
+$darkButton: #252525;
+$darkCard: #0f0f0f;
+$appDarkBoxShadow: 3px 3px 3px #131313, -3px -3px 3px #131313;
+
+// Mixins
+@mixin align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
