@@ -33,9 +33,13 @@
             <p class="text-lowercase">
               {{ project.details }}
             </p>
-            <button class="button">
+            <a
+              :href="project.link"
+              target="_blank"
+              class="button text-decoration-none"
+            >
               Try This <i class="bi-box-arrow-up-right mx-1"></i>
-            </button>
+            </a>
           </div>
         </div>
       </div>
@@ -92,7 +96,6 @@ export default {
         font-size: 0.75rem;
       }
       .button {
-        border: none;
         background: $darkButton;
         color: $appDarkColor;
         padding: 8px 10px;

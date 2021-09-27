@@ -14,6 +14,7 @@ const projects = [
     tools: "Vue, VueX, Sass, bootstrap",
     details:
       "Very Cool fashion brand with winter viebs which is gonna take you to December and live there for a while. it's not everything, you can also watch some fasion products and pick whatever you want and send them to the cart and also you can customize how many pieces you want to buy, not just that you can also know the coast of all the things you choosed, Still Haven't tried this yet???!",
+    link: "https://ahmedragab20.github.io/fashion-store/",
   },
   {
     id: 2,
@@ -22,6 +23,7 @@ const projects = [
     tools: "Vue, VueX, Sass, bootstrap",
     details:
       "Gorgeous Headphones brand home page with ability to pick up product and send it to the cart and also you can customize how many pieces you want to buy, not just that you can also know the coast of all the things you choosed, i guess it's so amazing. Dont you?!",
+    link: "https://ahmedragab20.github.io/vueHeadPhones/",
   },
   {
     id: 3,
@@ -30,6 +32,7 @@ const projects = [
     tools: "Vue, GSAP, Sass, bootstrap",
     details:
       "Iphone 12 pro official website clone with awesome scroll effects which's gonna take you inside the website. Go and try this now!",
+    link: "https://ahmedragab20.github.io/iphone12pro/",
   },
   {
     id: 4,
@@ -38,6 +41,7 @@ const projects = [
     tools: "Vue, Bootstrap, Sass",
     details:
       "Fantasy world of two cartoon characters, in my opinion is one of the cutest projects that i've ever made, So you really need to try this on!",
+    link: "https://ahmedragab20.github.io/mr-cartoon/",
   },
   {
     id: 5,
@@ -46,6 +50,7 @@ const projects = [
     tools: "Vue, APIs, Sass, bootstrap",
     details:
       "Can you know about what's on air and what people are taking about??. dont worry, now its super easy with Movies Hunter. Now you can learn about which the popular Movies and also TvShows, That's All?? Of course never. You can also Search for any specific Movie or even TvShow and Know everything about it. Go on and learn more about what's going on!",
+    link: "https://ahmedragab20.github.io/MoviesHunterApp/",
   },
   // {
   //   id: 6,
@@ -67,6 +72,7 @@ const projects = [
     tools: "Html, Css, bootstrap",
     details:
       "Have you ever wanted to buy VPN for any reason? Now it's Super easy. Try this on and Learn more!",
+    link: "https://ahmedragab20.github.io/vpn/",
   },
   // {
   //   id: 9,
@@ -81,6 +87,7 @@ const projects = [
     tools: "Html, Css, bootstrap",
     details:
       "The Flowers ain't just for the decoration. Flowers can control on you mental health, it can make it better or worse. Try This website and you'll know what I acually mean.",
+    link: "https://ahmedragab20.github.io/plantsProject/",
   },
 ];
 
