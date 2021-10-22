@@ -5,6 +5,7 @@ const Cartoon = require("../assets/projects/welcome.jpg");
 const movies = require("../assets/projects/movies.png");
 const vpn = require("../assets/projects/vpn.png");
 const plants = require("../assets/projects/plants.png");
+const nike = require("../assets/projects/nike.png");
 
 const projects = [
   {
@@ -19,14 +20,23 @@ const projects = [
   {
     id: 2,
     img: Headphones,
-    name: "HeadPhones",
+    name: "Headphones",
     tools: "Vue, VueX, Sass, bootstrap",
     details:
-      "Gorgeous Headphones brand home page with ability to pick up product and send it to the cart and also you can customize how many pieces you want to buy, not just that you can also know the coast of all the things you choosed, i guess it's so amazing. Dont you?!",
-    link: "https://ahmedragab20.github.io/vueHeadPhones/",
+      "HeadPhones Landing page with a simple store to add any particular product you want from the landing page to the cart and also choose how many pieces you want.",
+    link: "https://ahmedragab20.github.io/fashion-store/",
   },
   {
     id: 3,
+    img: nike,
+    name: "Nike",
+    tools: "Nuxt, VueX, Sass, bootstrap",
+    details:
+      "this a funny way to market a nike shoes products with ability to pick up a particular product and send it to the cart",
+    link: "https://nuxt-nike.netlify.app/",
+  },
+  {
+    id: 4,
     img: iphone12,
     name: "Iphone 12 pro",
     tools: "Vue, GSAP, Sass, bootstrap",
@@ -35,7 +45,7 @@ const projects = [
     link: "https://ahmedragab20.github.io/iphone12pro/",
   },
   {
-    id: 4,
+    id: 5,
     img: Cartoon,
     name: "MR-Cartoon",
     tools: "Vue, Bootstrap, Sass",
@@ -44,7 +54,7 @@ const projects = [
     link: "https://ahmedragab20.github.io/mr-cartoon/",
   },
   {
-    id: 5,
+    id: 6,
     img: movies,
     name: "Movies Hunter",
     tools: "Vue, APIs, Sass, bootstrap",
@@ -66,7 +76,7 @@ const projects = [
   //     "Website for the last news of the fashions and the popular models for this month",
   // },
   {
-    id: 8,
+    id: 7,
     img: vpn,
     name: "VPN Company",
     tools: "Html, Css, bootstrap",
@@ -81,7 +91,7 @@ const projects = [
   //   details: "This is a home furniture website",
   // },
   {
-    id: 10,
+    id: 11,
     img: plants,
     name: "Plants",
     tools: "Html, Css, bootstrap",
